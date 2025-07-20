@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>cart</title>
+</head>
+<body>
+    <section id="header">
+        <a href="#"> <img src="Image/logo.png" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="active" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+               <a href="#" id="closs"><i class="fa-solid fa-circle-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+    <section class="blog-header" id="aboutus">
+       <h2>#let's_talk</h2>
+       <p>LEAVE A MESSAGE, WE LOVE TO HEAR FROM YOU</p>
+    </section>
+
+   <section id="cart" class="sectionp1">
+    <table width="100%">
+      <thead>
+        <tr>
+            <td>Remove</td>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Subtotale</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td><a href="#"><i class="fa-regular fa-circle-xmark"></a></i></td>
+            <td><img src="Image/Product/f1.jpg"></td>
+            <td>Cartoon Astronaut T-Shirts</td>
+            <td>$119</td>
+            <td><input type="number" value="1"></td>
+            <td>$119</td>
+        </tr>
+        <tr>
+            <td><a href="#"><i class="fa-regular fa-circle-xmark"></a></i></td>
+            <td><img src="Image/Product/f5.jpg"></td>
+            <td>Cartoon Astronaut T-Shirts</td>
+            <td>$119</td>
+            <td><input type="number" value="1"></td>
+            <td>$119</td>
+        </tr>
+        <tr>
+            <td><a href="#"><i class="fa-regular fa-circle-xmark"></a></i></td>
+            <td><img src="Image/Product/f6.jpg"></td>
+            <td>Cartoon Astronaut T-Shirts</td>
+            <td>$119</td>
+            <td><input type="number" value="1"></td>
+            <td>$119</td>
+        </tr>
+      </tbody>
+    </table>
+
+   </section>
+   <section id="cart-add" class="sectionp1">
+    <div id="coupon">
+      <h3>Apply Coupon</h3>
+      <div>
+        <input type="text" placeholder="Enter Your Coupon">
+        <button>Applay</button>
+      </div>
+    </div>
+    <div id="subtotal">
+      <h3>Cart Totals</h3>
+      <table>
+        <tr>
+            <td>Cart Subtotal</td>
+            <td>$ 335</td>
+        </tr>
+        <tr>
+            <td>Shipping</td>
+            <td>Free</td>
+        </tr>
+        <tr>
+            <td><strong>Total</strong></td>
+            <td><strong>$ 335</strong></td>
+        </tr>
+      </table>
+      <button>Proceed to checkout</button>
+    </div>
+
+   </section>
+     <!--news letter aria-->
+  <section id="newsletter" class="sectionp1">
+    <div class="newstext">
+       <h4>Sing Up For Newsletter</h4>
+       <p>Get E-mail update about our latest shop and <span style="color: yellowgreen;">specoal offers</span></p>
+    </div>
+    <div class="from">
+        <input type="text" placeholder="Your email address">
+        <button class="normal">Sing Up</button>
+    </div>
+  </section>
+    
+  <!--Footer aria-->
+  <footer class="sectionp1">
+      <div class="col">
+         <img class="logo" src="Image/logo.png">
+         <h4>Contact</h4>
+         <p><strong>Address: </strong> 562 Wellington Road, Street 32, San Francisco</p>
+         <p><strong>Phone: </strong> +01 2222365 / (+91) 01 23456789 </p>
+         <p><strong>Hours: </strong> 10:00-18:00. Mon - Sat</p>
+         <div class="follow">
+           <h4>Follow Us</h4>
+              <div class="icone">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-pinterest-p"></i>
+              <i class="fab fa-youtube"></i>
+              </div>
+              
+         </div>
+        </div>
+        <div class="col">
+           <h4>About</h4>
+           <a href="#">About us</a>
+           <a href="#">Delivery Information</a>
+           <a href="#">Privacy Policy</a>
+           <a href="#">Terms & Conditions</a>
+           <a href="#">Contact us</a>
+           
+        </div>
+        <div class="col">
+           <h4>My Account</h4>
+           <a href="#">Sign In</a>
+           <a href="#">View Cart</a>
+           <a href="#">My Wishlist</a>
+           <a href="#">Track My Order</a>
+           <a href="#">Help</a>
+           
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+           <p>From App Store or Google Play</p>
+           <div class="Img5">
+            <img src="Image/pay/app.jpg">
+            <img src="Image/pay/play.jpg">
+           </div>
+            <p>Secured Payment Getways</p>
+            <img class="last" src="Image/pay/pay.png">
+        </div>
+        <div class="copyright"> 
+            <p>@ 2025, Tech etc - HTML CSS Ecommerce Template</p>
+        </div>
+  </footer>
+   
+    <script src="product.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
